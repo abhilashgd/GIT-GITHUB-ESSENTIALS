@@ -235,7 +235,7 @@
         % git commit -m "merge conflict resolved for index.html"
         % git push
         
-![screenshot](https://github.com/abhilashgd/GIT-GITHUB-ESSENTIALS/issues/3#issue-1100360585)
+https://github.com/abhilashgd/GIT-GITHUB-ESSENTIALS/issues/3#issue-1100360585
 
 #Rebase
 
