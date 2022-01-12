@@ -120,7 +120,15 @@
         % pbcopy < ~/.ssh/id_ed25519.pub
         profile—>settings—>ssh & gig keys—>  new ssh key —> <paste the copied key> --> add
         
+#GIT PUSH CONTD..
         
+         % vi main.go // func main(){} //:wq
+         % git status
+         % git add .
+         % git status
+         % git commit -m "added main.go with empty main funciton"
+         % git log
+         % git push
       
       
     
