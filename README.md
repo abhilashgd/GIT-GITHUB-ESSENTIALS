@@ -7,10 +7,10 @@
        
    **to store in a remote server //popular ones are listed below**
     
-        - [] github
-        - [] bit bucket
-        - [] aws code commit
-        - [] git lab
+        - [x] github
+        - [ ] bit bucket
+        - [ ] aws code commit
+        - [ ] git lab
        
 **Installing Git**
      
