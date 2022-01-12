@@ -100,6 +100,8 @@
         % git push -u origin main
         
 #SSH key SET UP
+
+
         profile—>settings—> SSH and GPG keys—>generating ssh keys—> follow the steps
         % ssh-keygen -t ed25519 -C “anrewgd@gmail.com”
         % <enter>
