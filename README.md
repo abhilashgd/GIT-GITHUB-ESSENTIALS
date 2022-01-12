@@ -95,7 +95,12 @@
 #Git hub
      
      //Git push
-        % git remote origin
+        % git remote add origin git@github.com:abhilashgd/GIT-GITHUB-ESSENTIALS.git
+        % git branch -M main
+        % git push -u origin main
+        
+     //SSH key SET UP
+        
       
       
     
