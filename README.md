@@ -226,9 +226,6 @@
     //Merging Conflicts
     
         % git pull // will display conflicts
-       
-        https://github.com/abhilashgd/GIT-GITHUB-ESSENTIALS/issues/3#issue-1100360585
-        
         VSCode conflict display
         -- we can accept cuurent/incoming/both or compare changes or modify file by editing 
         
@@ -238,6 +235,8 @@
         % git commit -m "merge conflict resolved for index.html"
         % git push
         
+![Screenshot][Screen Shot 2022-01-12 at 4.29.29 PM.png]
+
 #Rebase
 
         //goto main branch, make some changes in index.html and then rebase
