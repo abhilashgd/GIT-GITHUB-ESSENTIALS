@@ -37,6 +37,7 @@
         % q //to come out
         
    **initialising git repository**
+   
         % cd Desktop
         % mkdir learning-git
         % ls 
@@ -48,6 +49,7 @@
         % git init .
         
    **git add**  
+   
         % touch index.html
         % touch index.js
         % touch main.css
@@ -74,6 +76,7 @@
         % git status
         
    **git commit**
+   
         % git status
         % git commit -m "bootstrap project"
         % git status
@@ -223,7 +226,7 @@
     //Merging Conflicts
     
         % git pull // will display conflicts
-        ![Screen Shot 2022-01-12 at 4 29 29 PM](https://user-images.githubusercontent.com/21958756/149151199-4cd3507e-db6a-4710-bcd7-5333702bf27b.png)
+       
 
         VSCode conflict display
         -- we can accept cuurent/incoming/both or compare changes or modify file by editing 
@@ -235,6 +238,7 @@
         % git push
         
 #Rebase
+
         //goto main branch, make some changes in index.html and then rebase
         % git pull --rebase origin main
         or
