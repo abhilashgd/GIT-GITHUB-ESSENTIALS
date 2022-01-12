@@ -1,5 +1,6 @@
 # GIT-GITHUB-ESSENTIALS
 
+    >Ref: https://github.com/git-guides/
    **inside local machine**
     
        >Staging area // git add
