@@ -96,9 +96,8 @@
         % git add .
         % git commit -m "asdffgh"
         % git commit --amend -m "added body{} in main.css" //to modify commit msg
-   
-#Git hub
   
+ ##**Git hub**
   
   **Git push**
   
@@ -106,7 +105,7 @@
         % git branch -M main
         % git push -u origin main
         
-#SSH key SET UP
+##**SSH key SET UP**
 
   **Setting SSH Key from Github**
         profile—>settings—> SSH and GPG keys—>generating ssh keys—> follow the steps
