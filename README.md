@@ -27,14 +27,15 @@
         % git --help
         % ctrl+l // to clear screen
         
-        **configure git**
+   **configure git**
+        
         % git config --global user.name "abhilashgd"
         % git config --global user.email "anrewgd@gmail.com"
         % git config --global color.ui auto
         % git config -l
         % q //to come out
         
-        **initialising git repository**
+   **initialising git repository**
         % cd Desktop
         % mkdir learning-git
         % ls 
@@ -45,7 +46,7 @@
         % rm -rf .git
         % git init .
         
-      **git add**  
+   **git add**  
         % touch index.html
         % touch index.js
         % touch main.css
@@ -71,7 +72,7 @@
         % git add -A
         % git status
         
-      **git commit**
+   **git commit**
         % git status
         % git commit -m "bootstrap project"
         % git status
@@ -97,15 +98,17 @@
         % git commit --amend -m "added body{} in main.css" //to modify commit msg
    
 #Git hub
-     
-     //Git push
+  
+  
+  **Git push**
+  
         % git remote add origin git@github.com:abhilashgd/GIT-GITHUB-ESSENTIALS.git
         % git branch -M main
         % git push -u origin main
         
 #SSH key SET UP
 
-
+  **Setting SSH Key from Github**
         profile—>settings—> SSH and GPG keys—>generating ssh keys—> follow the steps
         % ssh-keygen -t ed25519 -C “anrewgd@gmail.com”
         % <enter>
