@@ -21,7 +21,7 @@
         > https://gitforwindows.org/
         > https://cmder.net/
         
-#GIT COMMANDS
+**GIT COMMANDS**
         **verify installation**
         % git version
         % git --help
@@ -97,7 +97,7 @@
         % git commit -m "asdffgh"
         % git commit --amend -m "added body{} in main.css" //to modify commit msg
   
- ##**Git hub**
+ **Git hub**
   
   **Git push**
   
@@ -105,7 +105,7 @@
         % git branch -M main
         % git push -u origin main
         
-##**SSH key SET UP**
+**SSH key SET UP**
 
   **Setting SSH Key from Github**
         profile—>settings—> SSH and GPG keys—>generating ssh keys—> follow the steps
@@ -126,7 +126,7 @@
         % pbcopy < ~/.ssh/id_ed25519.pub
         profile—>settings—>ssh & gig keys—>  new ssh key —> <paste the copied key> --> add
         
-#GIT PUSH CONTD..
+#**GIT PUSH CONTD..**
         
          % vi main.go // func main(){} //:wq
          % git status
@@ -137,13 +137,14 @@
          % git pull --rebase
          % git push
       
-#GIT PULL
+#**GIT PULL**
+  
         -->open main.go in github, add package main // commit
         % cat main.go
         % git pull //or git pull --rebase
         % cat main.go
 
-#Branches
+#**Branches**
         
         //main or master (default branches)
         steps
@@ -268,12 +269,4 @@ tent"
 #Building a portfolio
 
         - https://docs.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax
-        
-
-        
-        
-  
-        
-        
-    
 
