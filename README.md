@@ -93,8 +93,9 @@
         % git commit --amend -m "added body{} in main.css" //to modify commit msg
    
 #Git hub
-      //Git push
-        % 
+     
+     //Git push
+        % git remote origin
       
       
     
