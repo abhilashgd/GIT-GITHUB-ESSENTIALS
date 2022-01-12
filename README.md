@@ -227,7 +227,8 @@
     
         % git pull // will display conflicts
        
-
+        https://github.com/abhilashgd/GIT-GITHUB-ESSENTIALS/issues/3#issue-1100360585
+        
         VSCode conflict display
         -- we can accept cuurent/incoming/both or compare changes or modify file by editing 
         
