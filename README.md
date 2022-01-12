@@ -99,7 +99,25 @@
         % git branch -M main
         % git push -u origin main
         
-     //SSH key SET UP
+#SSH key SET UP
+        profile—>settings—> SSH and GPG keys—>generating ssh keys—> follow the steps
+        % ssh-keygen -t ed25519 -C “anrewgd@gmail.com”
+        % <enter>
+        % <enter>
+        % <enter>
+        % eval "$(ssh-agent -s)"
+        % vi ~/.ssh/config
+        Host *
+            AddKeysToAgent yes
+            UseKeychain yes
+            IdentityFile ~/.ssh/id_ed25519
+        :wq
+        % ssh-add -K ~/.ssh/id_ed25519
+        —> Adding a new SSH key to your GitHub account.
+        cat ~/.ssh/id_ed25519.pub
+        % pbcopy < ~/.ssh/id_ed25519.pub
+        profile—>settings—>ssh & gig keys—>  new ssh key —> <paste the copied key> --> add
+        
         
       
       
