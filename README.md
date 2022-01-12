@@ -235,7 +235,7 @@
         % git commit -m "merge conflict resolved for index.html"
         % git push
         
-![Screenshot][Screen Shot 2022-01-12 at 4.29.29 PM.png]
+![Screenshot](Screen Shot 2022-01-12 at 4.29.29 PM.png)
 
 #Rebase
 
