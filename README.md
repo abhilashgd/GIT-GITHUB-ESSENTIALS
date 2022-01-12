@@ -109,6 +109,7 @@
 **SSH key SET UP**
 
   **Setting SSH Key from Github**
+      
         profile—>settings—> SSH and GPG keys—>generating ssh keys—> follow the steps
         % ssh-keygen -t ed25519 -C “anrewgd@gmail.com”
         % <enter>
@@ -210,8 +211,7 @@
         - https://www.w3schools.com/html/
         % vi index.html // add page or use VSCode
         % git add .
-        % git commit -m "added index.html con
-tent"
+        % git commit -m "added index.html content"
         % git push
         % git push --set-upstream origin feature-xyz
         //make changes in index.html through github like adding p1,h1 in body
@@ -221,8 +221,10 @@ tent"
         % git push // will show conflict
         
     //Merging Conflicts
+    
         % git pull // will display conflicts
-        ![Screen Shot 2022-01-12 at 4 29 29 PM](https://user-images.githubusercontent.com/21958756/149128018-ddd88a71-ad51-4ee9-9fe1-73f2926909f3.png)
+        ![Screen Shot 2022-01-12 at 4 29 29 PM](https://user-images.githubusercontent.com/21958756/149151199-4cd3507e-db6a-4710-bcd7-5333702bf27b.png)
+
         VSCode conflict display
         -- we can accept cuurent/incoming/both or compare changes or modify file by editing 
         
