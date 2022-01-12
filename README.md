@@ -128,8 +128,11 @@
          % git status
          % git commit -m "added main.go with empty main funciton"
          % git log
+         % git pull --rebase
          % git push
       
-      
+#GIT PULL
+        
+         
     
 
