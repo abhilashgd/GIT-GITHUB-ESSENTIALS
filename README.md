@@ -2,19 +2,15 @@
 
    **inside local machine**
     
-       -Staging area // git add
-       -commit history //git commit
+       >Staging area // git add
+       >commit history //git commit
        
    **to store in a remote server //popular ones are listed below**
     
-        - github
-        -bit bucket
-        -aws code commit
-        -git lab
-        
-**COMMAND**
- 
-       - git push
+        >github
+        >bit bucket
+        >aws code commit
+        >git lab
        
 **Installing Git**
      
@@ -26,19 +22,19 @@
         > https://cmder.net/
         
 #GIT COMMANDS
-        //verify installation
+        **verify installation**
         % git version
         % git --help
         % ctrl+l // to clear screen
         
-        //configure git
+        **configure git**
         % git config --global user.name "abhilashgd"
         % git config --global user.email "anrewgd@gmail.com"
         % git config --global color.ui auto
         % git config -l
         % q //to come out
         
-        //initialising git repository
+        **initialising git repository**
         % cd Desktop
         % mkdir learning-git
         % ls 
@@ -49,7 +45,7 @@
         % rm -rf .git
         % git init .
         
-      //git add  
+      **git add**  
         % touch index.html
         % touch index.js
         % touch main.css
@@ -75,7 +71,7 @@
         % git add -A
         % git status
         
-      //git commit
+      **git commit**
         % git status
         % git commit -m "bootstrap project"
         % git status
